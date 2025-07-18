@@ -1,23 +1,11 @@
 # Trees and Income in NYC
 
+I initially looked at this data through a Tableau tutorial, and I wanted to use Python to get a closer look at the data.
+
+Research question:
 Do income and trees correlate in NYC neighborhoods?
 
-I initially used a dataset I accessed from a tutorial, and had some surprising findings. That work is in eda.ipynb.
-
-To do some further analysis, I accessed the full dataset through NYC Open Data, which has 45 columns--much more information. That analysis is in eda_2.ipynb.
-
-## Structure
-
-The project is organized as follows:
-
-- **`data/`** → Stores datasets at different stages:
-  - **`data/raw/`** → Raw data.
-  - **`data/processed/`** → Data ready for modeling
-- **`models/`** → Will contain trained models
-- **`src/app.py`** → Main Python script where project will run.
-- ** eda.ipynb ** notebook with all EDA
-- **`src/utils.py`** → Auxiliary functions, such as database connection.
-- **`requirements.txt`** → List of required Python packages.
+All work in in the eda.ipynb folder.
 
 
 
